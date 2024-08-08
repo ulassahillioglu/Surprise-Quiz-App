@@ -1,9 +1,9 @@
 var gateAnswers = [
-    { id: "1", correctAnswer: "carlsberg", hint: "Çıtçıt" },
-    { id: "2", correctAnswer: "tom riddle", hint: "İlk İmza" },
-    { id: "3", correctAnswer: "nika", hint: "No:96" },
-    { id: "4", correctAnswer: "red john", hint: "1997" },
-    { id: "5", correctAnswer: "arı", hint: "23" }
+    { id: "1", correctAnswer: "", hint: "" },
+    { id: "2", correctAnswer: "", hint: "" },
+    { id: "3", correctAnswer: "", hint: "" },
+    { id: "4", correctAnswer: "", hint: "" },
+    { id: "5", correctAnswer: "", hint: "" }
 ];
 function openGate(placeId) {
     var answerInput = document.getElementById(placeId);

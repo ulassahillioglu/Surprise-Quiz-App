@@ -2,25 +2,25 @@
     "places": [
         {
             "id": "1",
-            "name": "",
+            "name": "Çıtçıt",
             "imageUrl": "https://images.unsplash.com/photo-1484069560501-87d72b0c3669",
-            "description": "If you can guess the correct answer, the hint shall be revealed.",
-            "question": ""
+            "description": "Sorunun cevabını doğru bilirsen, ipucun açılacak.",
+            "question": "İçtiğimiz ilk bira hangisiydi?"
 
         },
         {
             "id": "2",
-            "name": "",
+            "name": "İlk İmza",
             "imageUrl": "https://images.unsplash.com/photo-1484069560501-87d72b0c3669",
-            "description": "If you can guess the correct answer, the hint shall be revealed.",
-            "question": ""
+            "description": "Sorunun cevabını doğru bilirsen, ipucun açılacak.",
+            "question": "Harry Potter serisinde Lord Voldemort'un gerçek adı nedir?"
         },
         {
             "id": "3",
-            "name": "",
+            "name": "Here",
             "imageUrl": "https://images.unsplash.com/photo-1484069560501-87d72b0c3669",
-            "description": "If you can guess the correct answer, the hint shall be revealed.",
-            "question": ""
+            "description": "Sorunun cevabını doğru bilirsen, ipucun açılacak.",
+            "question": "Monkey D. Luffy'nin şeytan meyvesi aslında Hito Hito no Mi meyvesinin, aynı zamanda güneş tanrısının adı olan hangi modelidir?"
 
         }
 
