@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Welcome</title>
+</head>
+
+<body>
+
+    <div class="has-bg-img" style="background-image: url('https://i.pinimg.com/originals/a0/74/4b/a0744b97665fa1a666ea1eae3b260fd2.gif'); background-size: cover;
+    background-repeat: no-repeat;background-position: center;height: 100vh">
+        <div class="col-2 offset-md-5 text-center">
+            
+                <div class="container">
+
+                    <p><span class="badge bg-dark bg-gradient mt-5"> Ph'nglui mglw'nfah Cthulhu R'lyeh wgah'nagl fhtagn!
+                        </span></p>
+
+                    <div class="form-group">
+                        <form action="/open" method="post">
+                            <input type="text" name="key" id="key" class="form-control">
+                            <input type="submit" value="Enter the number" class="btn btn-success mt-3">
+                        </form>
+                        <h3 id="hint"><span class="badge text-bg-secondary">{{hint}}</span></h3>
+                    </div>
+                </div>
+            
+
+        </div>
+    </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+<script src="reveal.js"></script>
+</html>
