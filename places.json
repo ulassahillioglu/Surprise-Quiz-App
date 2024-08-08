@@ -10,7 +10,7 @@
         },
         {
             "id": "2",
-            "name": "İlk İmza",
+            "name": "",
             "imageUrl": "https://images.unsplash.com/photo-1484069560501-87d72b0c3669",
             "description": "If you can guess the correct answer, the hint shall be revealed.",
             "question": "?"
