@@ -5,11 +5,11 @@ interface GateAnswer {
   }
   
   const gateAnswers: GateAnswer[] = [
-    { id: "1", correctAnswer: "carlsberg", hint: "Çıtçıt" },
-    { id: "2", correctAnswer: "tom riddle", hint: "İlk İmza" },
-    { id: "3", correctAnswer: "nika", hint: "No:96" },
-    { id: "4", correctAnswer: "red john", hint: "1997" },
-    { id: "5", correctAnswer: "arı", hint: "23" }
+    { id: "1", correctAnswer: "", hint: "" },
+    { id: "2", correctAnswer: "", hint: "" },
+    { id: "3", correctAnswer: "", hint: "" },
+    { id: "4", correctAnswer: "", hint: "" },
+    { id: "5", correctAnswer: "", hint: "" }
   ];
   
   function openGate(placeId: string): void {
@@ -26,7 +26,7 @@ interface GateAnswer {
   
     if (answer === gateAnswer.correctAnswer) {
       if (hintElement) {
-        hintElement.innerHTML = `İpucu: <button class="btn btn-outline-light btn-sm">${gateAnswer.hint}</button>`;
+        hintElement.innerHTML = `Hint: <button class="btn btn-outline-light btn-sm">${gateAnswer.hint}</button>`;
         hintElement.classList.add("badge", "text-bg-success");
       }
     } else {
